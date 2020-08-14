@@ -5,7 +5,7 @@ pipeline {
   
 	stage('BUILD') {
             steps {
-                sh 'flutter build apk'
+                sh 'sudo flutter build apk'
             }
         }
     }
