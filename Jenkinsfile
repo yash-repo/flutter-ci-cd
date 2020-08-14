@@ -10,9 +10,7 @@ pipeline {
             steps {	    
 		  
                 sh 'flutter build apk'
-		    }
-            
+		    }           
         }
     }
 }
-
