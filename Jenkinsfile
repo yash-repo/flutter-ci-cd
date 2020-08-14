@@ -8,5 +8,6 @@ pipeline {
                 sh 'flutter build apk'
             }
         }
-
+    }
+}
 
